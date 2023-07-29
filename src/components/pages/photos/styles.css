@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+#Banner{
+  background-image: url('https://image.tmdb.org/t/p/original/8sMmAmN2x7mBiNKEX2o0aOTozEB.jpg');
+  /*background-image: url('https://images.wallpapersden.com/image/download/black-panther-wakanda-forever-banner_bWxqZmqUmZqaraWkpJRpbmdprWZuZ2U.jpg');*/
+  background-position: 50% 50%;
+  background-size:cover;
+  width: 100%;
+  height:750px;
+}
+.actor-cards-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #000;
+}
+.cards-content{
+  width: 90%;
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+.card{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: #fff;
+  font-size: 17px;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+}
+.photo-1{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSd75d2K34WX7dItG68OjxniK7DNtUpy68iw&usqp=CAU');
+}
+.photo-2{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/37/Letitia_Wright_by_Gage_Skidmore.jpg');
+}
+.photo-3{
+  background-image: url('https://pbs.twimg.com/profile_images/1447807826856980481/vBNK-mmm_400x400.jpg');
+}
+.photo-4{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Tenoch_Huerta_Q%26A_festival.jpg');
+}
+.photo-5{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/31/Lupita_Nyong%27o_by_Gage_Skidmore.jpg');
+}
+.photo-6{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Danai_Gurira_by_Gage_Skidmore_3.jpg/640px-Danai_Gurira_by_Gage_Skidmore_3.jpg');
+}
+.photo-7{
+  background-image: url('https://images.mubicdn.net/images/cast_member/771208/cache-535022-1587115241/image-w856.jpg');
+}
+.photo-8{
+  background-image: url('https://geekblog.com.br/wp-content/uploads/2022/11/Dominique-Thorne.jpg');
+}
+
+#logo{
+  max-width: 90px;
+  height: auto;
+}
+footer{
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+span{
+  color: #fff;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+
+}
+.footer-navigation{
+  display: none;
+  
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media(max-width:768px){
+  #Banner{
+    background-position: 40%;
+  }
+  .cards-content{
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+  }
+  .footer-navigation{
+    display: block;
+    display: flex;
+  }
+  
+  nav{
+    display: none;
+  }
+
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#banner{
+  background-image: url('https://image.tmdb.org/t/p/original/8sMmAmN2x7mBiNKEX2o0aOTozEB.jpg');
+  /*background-image: url('https://images.wallpapersden.com/image/download/black-panther-wakanda-forever-banner_bWxqZmqUmZqaraWkpJRpbmdprWZuZ2U.jpg');*/
+  background-position: 50% 50%;
+  background-size:cover;
+  width: 100%;
+  height:750px;
+}
+#trailer-container{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.content{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trailer{
+  width: 50%;
+}
+#synopses{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.description{
+  color:#fff;
+  font-size: 19px;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+  width: 70%;
+}
+.button{
+  width: 200px;
+  height:60px ;
+  background-color: #D21617;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor:pointer ;
+  transition: .8s;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+}
+.button:hover{
+  background-color: #fff;
+  color: #000;
+}
+#logo{
+  max-width: 90px;
+  height: auto;
+}
+footer{
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+span{
+  color: #fff;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+
+}
+.footer-navigation{
+  display: none;
+  
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+@media(max-width:768px){
+  .footer-navigation{
+    display: block;
+    display: flex;
+  }
+  
+  nav{
+    display: none;
+  }
+  #banner{
+    background-position: 40%;
+  }
+  #trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .trailer{
+    width: 100%;
+  }
+  #synopses{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .description{
+    width: 100%;
+  }
+  .button{
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  
+}

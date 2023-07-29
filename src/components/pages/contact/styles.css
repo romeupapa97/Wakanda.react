@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+#banner{
+  background-image: url('https://image.tmdb.org/t/p/original/8sMmAmN2x7mBiNKEX2o0aOTozEB.jpg');
+  /*background-image: url('https://images.wallpapersden.com/image/download/black-panther-wakanda-forever-banner_bWxqZmqUmZqaraWkpJRpbmdprWZuZ2U.jpg');*/
+  background-position: 50% 50%;
+  background-size:cover;
+  width: 100%;
+  height:750px;
+}
+span{
+  color: red;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+}
+.content-container {
+  height: 100vh;
+  background-color: #333;
+} 
+.form-formulario{
+  width: 100%;
+  height:830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/008/558/original/abstract-luxury-black-and-orange-background-with-golden-lines-vector.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  height: 700px;
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-color:mediumaquamarine;
+  border: 2px solid yellow;
+}
+input{
+  color:red;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+}
+label{
+  color:black;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+}
+textarea{
+  width: 250px;
+  height: 90px;
+  color: #fff;
+  background-color:black;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+}
+button{
+  width: 150px;
+  height:60px ;
+  background-color:blue;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor:pointer ;
+  transition: .8s;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+}
+button :hover{
+  background-color: #fff;
+  color: #000;
+}
+#logo{
+  max-width: 90px;
+  height: auto;
+}
+footer{
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+span{
+  color: #fff;
+  font-family:'Kdam Thmor Pro',sans-serif ;
+
+}
+.footer-navigation{
+  display: none;
+  
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media(max-width:768px){
+  #Banner{
+    background-position: 40%;
+  }
+  .footer-navigation{
+    display: block;
+    display: flex;
+  }
+  
+  nav{
+    display: none;
+  }
+
+}
